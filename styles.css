@@ -57,6 +57,47 @@ header a:hover {
     margin-left: 75px;
 }
 
+.contactcontainer{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.contactcontainer2{
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: #e4dbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactme{
+    text-align: center;
+    text-shadow: 2px 2px white;
+}
+
+.outer-container{
+    display: flex;  
+    flex-direction: row;
+}
+
+.infobox{
+    
+    height: 100px;
+    width: 400px;
+}
+.infobox1{
+    
+    height: 75px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
 .box3{
     width: 500px;
     height: 70px;
@@ -178,5 +219,36 @@ h3,p{
     color: orange;
   }
 
+  #nav-title:hover{
+    cursor: pointer;
+  }
 
-  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    
+  }
+
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  input,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
