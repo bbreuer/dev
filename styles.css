@@ -74,6 +74,8 @@ header a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 20px;
+    margin-right: 30px;
 }
 
 .contactme{
