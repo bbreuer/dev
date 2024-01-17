@@ -62,13 +62,13 @@ header a:hover {
     height: 500px;
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    
 }
 
 .contactcontainer2{
     width: 50%;
     height: 500px;
-    border: 1px solid black;
+    box-shadow: 0 1px 8px #352e2e;
     background-color: #e4dbdb;
     display: flex;
     justify-content: center;
