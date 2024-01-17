@@ -163,6 +163,20 @@ h3,p{
     }
 }
 
+@media only screen and (max-width: 600px) {
+  .contactcontainer{
+      display: none;
+  }
+  .contactcontainer2{
+    width: 100%;
+  }
+}
+
+.price{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 12px;
+}
 
 .panel{
     width: 500px;
