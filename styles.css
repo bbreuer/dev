@@ -342,4 +342,22 @@ h3,p{
       
     }
 
+    body.dark-mode {
+      background-color: #1a1a1a;
+      color: #ffffff;
+  }
+
+  footer.dark-mode{
+      background-color: #1a1a1a;
+      color: #ffffff;
+  }
+  
+  button {
+      padding: 10px;
+      background-color: #007bff;
+      color: #ffffff;
+      cursor: pointer;
+  
+  }
+ 
   

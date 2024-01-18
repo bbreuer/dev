@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 <head>
+    
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,11 +12,12 @@
     <title>Breuer Web Dev</title>
 </head>
 
-<body>
+<body class="dark-theme || light-theme">
     
     <div>
         <header>
             <h1 id="nav-title"><a href="index.html">Breuer Web Dev</a></h1>
+            <button id="darkModeToggle">Toggle Dark Mode</button>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -37,6 +39,8 @@
         </div>
     </div>
 
+    <!-- Your scripts should be placed at the end of the body tag for better performance -->
+    <script src="darkmode.js"></script>
 </body>
 <footer id="footer">established 2024</footer>
 
