@@ -347,21 +347,17 @@ h3,p{
       color: #ffffff;
   }
 
-  body.dark-mode #footer {
+    body.dark-mode #footer {
     background-color: #333333; /* Dark mode background color */
     color: #524e4e; /* Dark mode text color */
-}
-  
-  button {
-      padding: 10px;
-      background-color: #007bff;
-      color: #ffffff;
-      cursor: pointer;
-  
   }
- 
+  
   .bulb{
     margin-right: 40px;
     height: 50px;
     width: 50px;
+  }
+
+  body{
+    transition: background-color 1s ease; 
   }
