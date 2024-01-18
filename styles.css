@@ -70,7 +70,7 @@ header a:hover {
     width: 50%;
     height: 500px;
     box-shadow: 0 1px 8px #352e2e;
-    background-color: #e4dbdb;
+    background-color: #b2d3f1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,15 +342,33 @@ h3,p{
       
     }
 
-    body.dark-mode {
+  body.dark-mode {
       background-color: #1a1a1a;
       color: #ffffff;
   }
 
-    body.dark-mode #footer {
+  body.dark-mode #footer {
     background-color: #333333; /* Dark mode background color */
-    color: #524e4e; /* Dark mode text color */
+    color: #ab56ff; /* Dark mode text color */
   }
+
+  body.dark-mode .box2{
+    box-shadow: 0 1px 8px hsl(270, 100%, 67%);
+  }
+
+  body.dark-mode header{
+    box-shadow: 0 1px 8px #ab56ff;
+  }
+
+  body.dark-mode .box{
+    box-shadow: 0 1px 8px #ab56ff;
+  }
+
+  body.dark-mode .contactcontainer2{
+    box-shadow: 0 1px 8px #ab56ff;
+    background-color: black;
+  }
+  
   
   .bulb{
     margin-right: 40px;
@@ -361,3 +379,5 @@ h3,p{
   body{
     transition: background-color 1s ease; 
   }
+
+
