@@ -412,6 +412,10 @@ body.dark-mode .contactme{
     width: 50px;
   }
 
+  .bulb:hover{
+    cursor: pointer;
+  }
+
   body{
     transition: background-color 1s ease; 
   }
@@ -423,8 +427,9 @@ body.dark-mode .contactme{
     font-size: 16px;
     border: none;
     cursor: pointer;
-    display: none;
     width: 100%;
+    display: none;
+    background-color: white;
   }
   
   .dropdown {
@@ -438,7 +443,7 @@ body.dark-mode .contactme{
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     width: 100%;
     text-align: center;
@@ -450,17 +455,37 @@ body.dark-mode .contactme{
     text-decoration: none;
     display: block;
   }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
+  
   @media only screen and (max-width: 600px) {
     #dropbtn1{
       display: block;
+    }
+    .contactcontainer2{
+      scale: 90%;
+    }
+    
+    .infobox{
+      scale: 80%;
     }
   }
   
   .infobox5{
     margin-top: 20px;
   }
+
+  @media screen and (max-width: 500px) {
+    header {
+      flex-direction: row; /* Ensure items stay in a row */
+      justify-content: space-between; /* Adjust to move items to the edges */
+      text-align: center; /* Center text in the middle */
+  }
+
+    #nav-title {
+        margin-right: 0; /* Reset margin for center alignment */
+        text-align: center;
+      }
+
+    #bulb {
+        order: 1; /* Move the bulb icon to the far right */
+    }
+}
