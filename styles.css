@@ -180,6 +180,11 @@ h3,p{
     margin-bottom: 20px;
     margin-top: 40px;
   }
+
+  .contactme{
+    text-shadow: 2px 2px rgb(87, 3, 183);
+  }
+
 }
 
 
