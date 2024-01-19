@@ -363,13 +363,21 @@ h3,p{
     background-color: black;
   }
 
-  body.dark-mode .dropdown-content{
+  body.dark-mode .dropdown-content {
     background-color: #1a1a1a;
+}
+
+body.dark-mode .dropdown-content a {
+  color: white;
+}
+
+body.dark-mode #dropbtn1 {
+  background-color: #1a1a1a;
+  color: hsl(270, 100%, 67%);
+  box-shadow: 0 1px 8px hsl(270, 100%, 67%);
   }
-  
-  body.dark-mode .droptext{
-    color: white;
-  }
+
+
 
   
   .bulb{
