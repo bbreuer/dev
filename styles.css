@@ -190,6 +190,9 @@ h3,p{
     margin: auto;
   }
   
+  .infobox{
+    scale: 70%;
+  }
 }
 
 
