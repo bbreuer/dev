@@ -191,11 +191,11 @@ h3,p{
       display: none;
   }
   .contactcontainer2{
-    margin: auto;
+    scale: 90%;
   }
   
   .infobox{
-    scale: 70%;
+    scale: 80%;
   }
   
 }
